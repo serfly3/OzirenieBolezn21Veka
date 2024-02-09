@@ -58,7 +58,7 @@ function day1() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1388 ккал</h1>
+    <h1>Итого за день 1388 ккал</h1>
     `;
 }
 
@@ -101,7 +101,7 @@ function day2() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1241 ккал</h1>
+    <h1>Итого за день 1241 ккал</h1>
     `;
 }
 
@@ -143,7 +143,7 @@ function day3() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1452 ккал</h1>
+    <h1>Итого за день 1452 ккал</h1>
     `;
 }
 
@@ -185,7 +185,7 @@ function day4() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1239 ккал</h1>
+    <h1>Итого за день 1239 ккал</h1>
     `;
 }
 
@@ -228,7 +228,7 @@ function day5() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1420 ккал</h1>
+    <h1>Итого за день 1420 ккал</h1>
     `;
 }
 
@@ -270,7 +270,7 @@ function day6() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1550 ккал</h1>
+    <h1>Итого за день 1550 ккал</h1>
     `;
 }
 
@@ -313,7 +313,7 @@ function day7() {
     `;
 
   allDay.innerHTML = `
-    <h1 style='margin: 20px 0px 20px 17vw'>Итого за день 1312 ккал</h1>
+    <h1>Итого за день 1312 ккал</h1>
     `;
 }
 
