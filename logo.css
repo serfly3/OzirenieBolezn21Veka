@@ -1,0 +1,10 @@
+.logo {
+    width: 5vw;
+    height: 5vw;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
