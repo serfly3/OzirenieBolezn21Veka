@@ -1,20 +1,13 @@
 const kg = document.getElementById("kg");
 const m = document.getElementById("m");
 const per = document.getElementById("per")
-const perBtt = document.getElementById("perBtt");
 const btn = document.getElementById("btn");
 const result = document.getElementById("result");
 const info = document.getElementById('in');
 
-function perevod() {
-    m.value = per.value/100;
-}
-
-perBtt.addEventListener('click',perevod);
-
 function cal() {
     result.innerHTML="";
-    let formula = kg.value/m.value**2;
+    let formula = kg.value/(m.value/100)**2;
     result.textContent = `Ваш ИМТ: ${formula.toFixed(2)}`;
     if (formula<=16) {
         result.innerHTML = `<p>Значительный дефицит массы тела (ИМТ: ${formula.toFixed(2)})</p>` 
